@@ -5,8 +5,8 @@ FLOW allows users to create an account, using BCrypt for authentication, to keep
 ## Technologies used:
 Java | JavaScript | MySQL | CSS | HTML | BCrypt | External APIs | Graph.js
 
-<img src="https://imgur.com/rL8CeZO" />
-<img src="https://imgur.com/piZi3X4" />
-<img src="https://imgur.com/fzlfRxb" />
-<img src="https://imgur.com/eA2dhV8" />
-<img src="https://imgur.com/BybYiIL" />
+<img src="https://imgur.com/rL8CeZO" width="40px" height="40px" />
+<img src="https://imgur.com/piZi3X4" width="40px" height="40px" />
+<img src="https://imgur.com/fzlfRxb" width="40px" height="40px" />
+<img src="https://imgur.com/eA2dhV8" width="40px" height="40px" />
+<img src="https://imgur.com/BybYiIL" width="40px" height="40px" />
