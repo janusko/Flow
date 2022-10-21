@@ -19,3 +19,15 @@
     <img src="https://user-images.githubusercontent.com/107567685/196511031-6a2f8682-2326-4383-8de6-b89383627a34.gif" alt="dashboard2" />
     <img src="https://user-images.githubusercontent.com/107567685/196511592-46509b71-9542-4463-8c49-1204d7cee2c3.gif" alt="graph" />
 </p>
+
+<div align="center">
+  <h2>Installation</h2>
+  <ul>
+    <li>After downloading, you will need to create a new database in MySQL.</li>
+    <li>In Spring Tool Suite, open the application.properties file (src-> main-> resources->)</li>
+        <ul>
+          <li>Enter your newly created schema name after the following code: spring.datasource.url=</li>
+          <li>Enter your MySQL username after the following code: spring.datasource.username=</li>
+          <li>Enter your MySQL password after the following code: spring.datasource.password=</li>
+        </ul>
+    <li>
