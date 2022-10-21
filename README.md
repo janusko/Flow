@@ -20,14 +20,23 @@
     <img src="https://user-images.githubusercontent.com/107567685/196511592-46509b71-9542-4463-8c49-1204d7cee2c3.gif" alt="graph" />
 </p>
 
-<div align="center">
+<div>
   <h2>Installation</h2>
   <ul>
     <li>After downloading, you will need to create a new database in MySQL.</li>
-    <li>In Spring Tool Suite, open the application.properties file (src-> main-> resources->)</li>
+    <li>Verify that all dependencies are in your pom.xml (jbcrypt, spring-boot-starter-validation, jquery, bootstrap, webjars-locator, tomcat-embed-jasper)
+    <li>In Spring Tool Suite, open the application.properties file (src-> main-> resources)</li>
         <ul>
-          <li>Enter your newly created schema name after the following code: spring.datasource.url=</li>
-          <li>Enter your MySQL username after the following code: spring.datasource.username=</li>
-          <li>Enter your MySQL password after the following code: spring.datasource.password=</li>
-        </ul>
-    <li>
+          <li>Enter your newly created schema name after the following code: spring.datasource.url={your_schema}</li>
+          <li>Enter your MySQL username after the following code: spring.datasource.username={your_username}</li>
+          <li>Enter your MySQL password after the following code: spring.datasource.password={your_password}</li>
+          <li>spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver</li>
+          <li>spring.jpa.hibernate.ddl-auto=update</li>
+          <li>spring.mvc.view.prefix=/WEB-INF/</li>
+          <li>spring.mvc.hiddenmethod.filter.enabled=true</li>
+          <li>api.key={your_api_key}</li>
+              <ul>
+                <li>Sign up for Live World Data API to get your own api.key (https://rapidapi.com/jonaskoscielny/api/live-world-data)</li>
+              </ul>
+    </ul>
+    </div>
