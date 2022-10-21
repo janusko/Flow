@@ -40,3 +40,15 @@
               </ul>
     </ul>
     </div>
+
+  
+ <div>
+   <h2>Citations</h2>
+      <ul>
+        <li>https://www.cdc.gov/healthywater/global/wash_statistics.html</li>
+        <li>https://ourworldindata.org/water-access</li>
+        <li>https://www.theworldcounts.com/challenges/state-of-the-planet/when-will-the-world-run-out-of-water</li>
+        <li>https://www.worldometers.info/water/</li>
+        <li>https://www.wri.org/insights/domestic-water-use-grew-600-over-past-50-years</li>   
+   </ul>
+  </div>
