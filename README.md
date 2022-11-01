@@ -2,7 +2,7 @@
   
   <h3>Full-Stack Java: Water Consumption Data Visualization</h3>
   
- <p>FLOW allows users to create an account, using bcrypt for authentication, to keep track of their own personal water footprint. Each entry will be stored in a MySQL database, which can be referenced and deleted on the user's dashboard. Those entries will then be displayed on a graph, made with Graph.js, to allow each user to visually track see how much water they have consumed over the course of their account life.</p>
+ <p>FLOW allows users to create an account, using bcrypt for authentication, to keep track of their own personal water footprint. Each entry will be stored in a MySQL database, which can be referenced and deleted on the user's dashboard. All entries will then be displayed on a graph, made with Graph.js, to allow each user to visually track see how much water they have consumed over the course of their account life.</p>
  </div>
   
   
